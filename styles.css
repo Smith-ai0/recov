@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.certificate-container {
+    background: white;
+    padding: 20px;
+    border: 2px solid #000;
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.certificate-content {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.certificate-content h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.certificate-content h3 {
+    margin: 10px 0;
+}
+
+.certificate-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certificate-content ul li {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: left;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.govt-stamp {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
